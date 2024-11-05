@@ -12,9 +12,9 @@ function CounterRedux() {
     <div>
       <h2>Redux Counter</h2>
       <p>Count: {count}</p>
-      <button onClick={() => dispatch(increment())}>Increment</button>
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
-      <button onClick={() => dispatch(reset())}>Reset</button>
+        <button onClick={() => dispatch(increment())} style={{ marginRight: '5px'}}>Increment</button>
+        <button onClick={() => dispatch(decrement())} style={{ marginRight: '5px'}}>Decrement</button>
+        <button onClick={() => dispatch(reset())} style={{ marginRight: '5px'}}>Reset</button>
     </div>
   );
 }
